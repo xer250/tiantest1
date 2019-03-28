@@ -49,15 +49,6 @@ class BookController {
         return "list";
     }
 
-    @RequestMapping(value = "/list", method = RequestMethod.GET)
-    private String list1(Model model) {
-        List<Book> list = bookService.getList();
-        model.addAttribute("list", list);
-        // list.jsp + model = ModelAndView
-        return "list";
-    }
-
-
     @RequestMapping(value = "/{bookId}/detail", method = RequestMethod.GET)
     private String detail(@PathVariable("bookId") Long bookId, Model model) {
         if (bookId == null) {
