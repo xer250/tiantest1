@@ -41,6 +41,16 @@ class BookController {
         return mav;
          }
 
+
+    @RequestMapping(value="/test")
+    public ModelAndView testeee(){
+        ModelAndView mav=new ModelAndView("index");
+        /*mav.addObject("time", new Date());
+        mav.getModel().put("name", "caoyc");*/
+
+        return mav;
+    }
+
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     private String list(Model model) {
         List<Book> list = bookService.getList();
