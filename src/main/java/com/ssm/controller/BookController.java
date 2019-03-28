@@ -62,6 +62,19 @@ class BookController {
         return "detail";
     }
 
+
+    @RequestMapping(value = "/{bookId}/detail", method = RequestMethod.GET)
+    private String detail1(@PathVariable("bookId") Long bookId, Model model) {
+        if (bookId == null) {
+            return "redirect:/book/list";
+        }
+        Book book = bookService.getById(bookId);
+        if (book == null) {
+            return "forward:/book/list";
+        }
+        model.addAttribute("book", book);
+        return "detail";
+    }
     // ajax json
     @RequestMapping(value = "/{bookId}/appoint", method = RequestMethod.POST, produces = {
             "application/json; charset=utf-8" })
