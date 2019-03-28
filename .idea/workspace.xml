@@ -7,9 +7,14 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <list default="true" id="7f014bb1-e9c6-49bc-9344-e2088f03f91a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/BookController.java" />
+=======
+    <list default="true" id="7f014bb1-e9c6-49bc-9344-e2088f03f91a" name="Default" comment="dfsd">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> Stashed changes
     </list>
 =======
     <list default="true" id="7f014bb1-e9c6-49bc-9344-e2088f03f91a" name="Default" comment="dfsd" />
@@ -96,10 +101,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             <state relative-caret-position="376">
               <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
 =======
             <state relative-caret-position="662">
+              <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+>>>>>>> Stashed changes
+=======
+            <state relative-caret-position="587">
               <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
 >>>>>>> Stashed changes
               <folding />
@@ -339,6 +349,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -353,6 +368,7 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< Updated upstream
       <pane id="PackagesPane" />
 <<<<<<< Updated upstream
       <pane id="Scope" />
@@ -360,6 +376,9 @@
 =======
       <pane id="Scratches" />
       <pane id="Scope" />
+>>>>>>> Stashed changes
+=======
+      <pane id="Scratches" />
 >>>>>>> Stashed changes
     </panes>
   </component>
@@ -1164,7 +1183,11 @@
       <workItem from="1553773117302" duration="150000" />
 =======
       <workItem from="1553760849669" duration="2929000" />
+<<<<<<< Updated upstream
       <workItem from="1553775802384" duration="57000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1553775977007" duration="131000" />
 >>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="dfsd">
@@ -1218,9 +1241,13 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="113624000" />
 =======
     <option name="totallyTimeSpent" value="112547000" />
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="112621000" />
 >>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
@@ -1245,7 +1272,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66993463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28366113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1714,6 +1745,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
+          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
           <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
           <folding />
         </state>
