@@ -43,7 +43,7 @@ class BookController {
 
 
     @RequestMapping(value="/test")
-    public ModelAndView testeee(){
+    public ModelAndView testeeae(){
         ModelAndView mav=new ModelAndView("index");
         /*mav.addObject("time", new Date());
         mav.getModel().put("name", "caoyc");*/
