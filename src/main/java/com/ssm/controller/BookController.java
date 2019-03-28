@@ -62,8 +62,6 @@ class BookController {
         return "detail";
     }
 
-
-
     // ajax json
     @RequestMapping(value = "/{bookId}/appoint", method = RequestMethod.POST, produces = {
             "application/json; charset=utf-8" })
