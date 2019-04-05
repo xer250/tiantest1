@@ -34,7 +34,7 @@ class BookController {
 
     @RequestMapping(value="/test")
     public ModelAndView test(){
-        ModelAndView mav=new ModelAndView("index");
+        ModelAndView mav=new ModelAndView("/test");
         /*mav.addObject("time", new Date());
         mav.getModel().put("name", "caoyc");*/
 
@@ -42,9 +42,9 @@ class BookController {
          }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
-    private String list(Model model) {
-        List<Book> list = bookService.getList();
-        model.addAttribute("list", list);
+    private String booklist(Model model) {
+        List<Book> blist = bookService.getList();
+        model.addAttribute("blist", blist);
         // list.jsp + model = ModelAndView
         return "list";
     }

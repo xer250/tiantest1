@@ -8,8 +8,26 @@
 
 <body>
 <h2>dfsg</h2>
-${book.book_id}
-${book.name}
-${book.number}
+
+
+<table>
+
+    <tr>
+        <td>书名</td>
+        <td>编号</td>
+    </tr>
+    <c:forEach items="${blist}" var="book" >
+
+        <tr>
+            <td>${book.name}</td>
+            <td>${book.number}</td>
+        </tr>
+
+    </c:forEach>
+
+
+</table>
+
+
 </body>
 </html>

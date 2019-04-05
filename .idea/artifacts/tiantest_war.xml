@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tiantest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="tiantest.war">
+      <element id="artifact" artifact-name="tiantest:war exploded" />
+    </root>
+  </artifact>
+</component>
