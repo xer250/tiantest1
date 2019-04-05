@@ -10,7 +10,7 @@
 <h2>dfsg</h2>
 
 
-<table>
+<table boder="1" bgcolor="red" cellpadding="5">
 
     <tr>
         <td>书名</td>
