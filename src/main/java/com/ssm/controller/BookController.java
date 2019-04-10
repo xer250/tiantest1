@@ -32,6 +32,13 @@ class BookController {
 
 
 
+
+
+   @RequestMapping(value = "/login")
+   public void login(){
+       System.out.println("未登录");
+   }
+
     @RequestMapping(value="/test")
     public ModelAndView test(){
         ModelAndView mav=new ModelAndView("index");
@@ -39,12 +46,7 @@ class BookController {
         mav.getModel().put("name", "caoyc");*/
 
         return mav;
-         }
-
-   @RequestMapping(value = "/login")
-   public void login(){
-       System.out.println("未登录");
-   }
+    }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     private String list(Model model) {
@@ -54,7 +56,13 @@ class BookController {
         return "list";
     }
 
-
+    @RequestMapping(value = "/list", method = RequestMethod.GET)
+    private String list11(Model model) {
+        List<Book> list = bookService.getList();
+        model.addAttribute("list", list);
+        // list.jsp + model = ModelAndView
+        return "list";
+    }
 
 
     @RequestMapping(value = "/{bookId}/detail", method = RequestMethod.GET)
