@@ -49,7 +49,7 @@ class BookController {
     }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
-    private String list(Model model) {
+    public String list(Model model) {
         List<Book> list = bookService.getList();
         model.addAttribute("list", list);
         // list.jsp + model = ModelAndView
@@ -57,7 +57,7 @@ class BookController {
     }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
-    private String list11(Model model) {
+    public String list11(Model model) {
         List<Book> list = bookService.getList();
         model.addAttribute("list", list);
         // list.jsp + model = ModelAndView
@@ -66,7 +66,7 @@ class BookController {
 
 
     @RequestMapping(value = "/{bookId}/detail", method = RequestMethod.GET)
-    private String detail(@PathVariable("bookId") Long bookId, Model model) {
+    public String detail(@PathVariable("bookId") Long bookId, Model model) {
         if (bookId == null) {
             return "redirect:/book/list";
         }
@@ -82,7 +82,7 @@ class BookController {
     @RequestMapping(value = "/{bookId}/appoint", method = RequestMethod.POST, produces = {
             "application/json; charset=utf-8" })
     @ResponseBody
-    private Result<AppointExecution> appoint(@PathVariable("bookId") Long bookId, @RequestParam("studentId") Long studentId) {
+    public Result<AppointExecution> appoint(@PathVariable("bookId") Long bookId, @RequestParam("studentId") Long studentId) {
         if (studentId == null || studentId.equals("")) {
             return new Result(false, "学号不能为空");
         }
