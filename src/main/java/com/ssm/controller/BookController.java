@@ -41,14 +41,10 @@ class BookController {
         return mav;
          }
 
-    @RequestMapping(value="/test")
-    public ModelAndView testaa(){
-        ModelAndView mav=new ModelAndView("index");
-        /*mav.addObject("time", new Date());
-        mav.getModel().put("name", "caoyc");*/
-
-        return mav;
-    }
+   @RequestMapping(value = "/login")
+   public void login(){
+       System.out.println("未登录");
+   }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     private String list(Model model) {
