@@ -10,13 +10,13 @@
 <h2>dfsg</h2>
 
 
-<table boder="1" bgcolor="red" cellpadding="5">
+<table boder="1" bgcolor="red" cellpadding="5" >
 
     <tr>
         <td>书名</td>
         <td>编号</td>
     </tr>
-    <c:forEach items="${blist}" var="book" >
+    <c:forEach items="${list}" var="book" >
 
         <tr>
             <td>${book.name}</td>
