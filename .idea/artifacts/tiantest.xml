@@ -1,13 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="tiantest">
-    <output-path>$PROJECT_DIR$/out/artifacts/tiantest</output-path>
-    <root id="archive" name="tiantest.war">
-      <element id="dir-copy" path="$PROJECT_DIR$" />
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="clasess">
-          <element id="module-output" name="tiantest" />
-        </element>
-      </element>
-    </root>
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="tiantest.war" />
   </artifact>
 </component>
