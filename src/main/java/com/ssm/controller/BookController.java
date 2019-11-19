@@ -32,7 +32,10 @@ class BookController {
 
 
 
-
+    @RequestMapping(value = "/test")
+    public void tests(){
+        System.out.println("merge合并代码");
+    }
 
    @RequestMapping(value = "/login")
    public void login(){
